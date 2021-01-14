@@ -8,3 +8,14 @@ div.padded {
     padding-left: 20px;
 }
 
+/* .pub-title {
+    color:dimgray;
+} */
+
+i.authors {
+    /* color:dimgray; */
+}
+
+a:link {
+    color: palevioletred;
+}
