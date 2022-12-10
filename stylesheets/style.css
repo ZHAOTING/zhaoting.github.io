@@ -19,3 +19,7 @@ i.authors {
 a:link {
     color: palevioletred;
 }
+
+span.topic {
+    color:cornflowerblue;
+}
