@@ -4,7 +4,7 @@ body {
     font-size: large;
 }
 
-div.padded {
+.padded {
     padding-left: 20px;
 }
 
@@ -22,4 +22,22 @@ a:link {
 
 span.topic {
     color:cornflowerblue;
+}
+
+div.image-container {
+    position: relative;
+    text-align: center;
+    width: 300;
+}
+.image-text {
+    position: absolute;
+    float: right;
+    transform: rotate(-90deg);
+    transform-origin:100% 100%;
+    -webkit-transform:rotate(-90deg);
+    -webkit-transform-origin: 100% 100%;
+    z-index: 100;
+    color: antiquewhite;
+    right: 5px;
+    margin-top: -10px;
 }
