@@ -20,6 +20,9 @@ a:link {
     color: palevioletred;
 }
 
+span.update_date {
+    color:lightgray;
+}
 span.topic {
     color:cornflowerblue;
 }
