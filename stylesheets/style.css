@@ -4,33 +4,13 @@ body {
     font-size: large;
 }
 
+.content {
+    margin: auto;
+    width: 760px;
+    padding: 20px;
+}
 .padded {
     padding-left: 20px;
-}
-
-/* .pub-title {
-    color:dimgray;
-} */
-
-i.authors {
-    /* color:dimgray; */
-}
-
-a:link {
-    color: palevioletred;
-}
-
-span.update_date {
-    color:lightgray;
-}
-span.topic {
-    color:cornflowerblue;
-}
-
-div.image-container {
-    position: relative;
-    text-align: center;
-    width: 600;
 }
 .image-text {
     position: absolute;
@@ -43,4 +23,33 @@ div.image-container {
     color: antiquewhite;
     right: 5px;
     margin-top: -10px;
+}
+.floating-period-text {
+    float: right;
+}
+
+/* .pub-title {
+    color:dimgray;
+} */
+
+/* i.authors {
+    color:dimgray;
+} */
+
+a:link {
+    color: palevioletred;
+}
+
+span.update-date {
+    color:lightgray;
+}
+span.topic {
+    color:cornflowerblue;
+}
+
+div.image-container {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 460px;
 }
