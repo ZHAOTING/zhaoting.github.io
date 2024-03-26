@@ -6,7 +6,7 @@ body {
 
 .content {
     margin: auto;
-    width: 760px;
+    width: 660px;
     padding: 20px;
 }
 .padded {
@@ -52,4 +52,10 @@ div.image-container {
     position: relative;
     text-align: center;
     width: 460px;
+}
+
+img.icon {
+    width: 20px;
+    height: 20px;
+    filter: grayscale(100%);
 }
